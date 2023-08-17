@@ -1,0 +1,8 @@
+# Do not delete lines starting with Hash 
+# Input file for simulator.
+# Next line consist of N z0 z1 T0(Termination Time) respectively seperated by spaces.
+10 40 30 20000
+# Next line consist of Tmean for each node seperated by spaces.
+30 30 30 30 30 30 30 30 30 30 
+# Next line consist of Kmean for each node seperated by spaces.
+100 150 100 110 190 100 300 100 110 200 

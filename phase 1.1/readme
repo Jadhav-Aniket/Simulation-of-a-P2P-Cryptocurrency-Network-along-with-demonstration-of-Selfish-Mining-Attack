@@ -1,0 +1,23 @@
+# Libraries Required : 
+	-hashlib
+	-heapq
+	-numpy
+	-random
+	-graphviz
+# Compilation Of Code:
+	- Initialize the inut.txt file :
+            # Do not delete lines starting with Hash 
+            # Input file for simulator.
+            # Next line consist of N z0 z1 T0(Termination Time) respectively seperated by spaces.
+            10 50 40 20000
+            # Next line consist of Tmean for each node seperated by spaces.
+            10 20 25 22 34 38 32 13 13 27
+            # Next line consist of Kmean for each node seperated by spaces.
+            100 250 300 200 480 500 200 661 500 900
+	- to compile the code do the following:
+		-- install prerequisite libraries 
+		-- Run mainfile.py
+# Output:
+	- Output is generated and saved in results.
+	- output for point 8 will be generated in folder
+		-- each file for a node contains <block hash: time> pair
