@@ -1,0 +1,8 @@
+# Do not delete lines starting with Hash 
+# Input file for simulator.
+# Next line consist of N z0 z1 T0(Termination Time) AttackMode HashingPower  ζ, an adversary is connected to.
+10 50 35 2000 1 51 40
+# Next line consist of Tmean.
+10 
+# Next line consist of Kmean.
+30

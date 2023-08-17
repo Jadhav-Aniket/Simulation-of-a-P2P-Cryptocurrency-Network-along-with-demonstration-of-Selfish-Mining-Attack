@@ -1,0 +1,28 @@
+# Libraries Required : 
+	-hashlib
+	-heapq
+	-numpy
+	-random
+	-graphviz
+# Compilation Of Code:
+	- Initialize the inut.txt file :
+            # Do not delete lines starting with Hash 
+            # Input file for simulator.
+            # Next line consist of N, z0, z1, T0(Termination Time), AttackMode(0/1/2), HashingPower, ζ (an adversary is connected to).
+			10 50 35 1000 1 25 25
+			# Next line consist of Tmean.
+			10 
+			# Next line consist of Kmean.
+			30
+	- to compile the code do the following:
+		-- install prerequisite libraries 
+		-- Run mainfile.py
+		-- Attack Mode 
+			- 0 (No Attack)
+			- 1 (Selfish Mining Attack)
+			- 2 (Stubborn)
+
+# Output:
+	- Output is generated and saved in results.
+	- output for point 8 will be generated in folder
+		-- each file for a node contains <block hash: time> pair
